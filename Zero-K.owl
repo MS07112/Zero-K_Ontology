@@ -59,6 +59,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Air-Superiority -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Air-Superiority">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Air"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#UnitClass"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Aircraft -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Aircraft">
@@ -83,6 +92,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Heavy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Heavy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#UnitClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Sub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Sub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#UnitClass"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Artillery -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Artillery">
@@ -94,6 +119,15 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Assault -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Assault">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Multi-Role"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#UnitClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Bomber -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Bomber">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#UnitClass"/>
     </owl:Class>
     
@@ -113,10 +147,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Construction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Construction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#UnitClass"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Defense -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Defense">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Building"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Disruptor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Disruptor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#UnitClass"/>
     </owl:Class>
     
 
@@ -133,6 +183,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Factory">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Production"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Fire_Support -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Fire_Support">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#UnitClass"/>
     </owl:Class>
     
 
@@ -165,6 +223,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Jumpbot">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#UnitCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Multi-Role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Multi-Role">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#UnitClass"/>
     </owl:Class>
     
 
@@ -266,6 +332,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Suicide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Suicide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#UnitClass"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Superweapon -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Superweapon">
@@ -308,14 +382,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#UnitClass">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Unit"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Worker -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Worker">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#UnitClass"/>
     </owl:Class>
     
 
@@ -367,6 +433,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Angler">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Amphbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Air"/>
     </owl:NamedIndividual>
     
 
@@ -375,6 +442,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Archer">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Amphbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Raider"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Riot"/>
     </owl:NamedIndividual>
     
 
@@ -398,8 +467,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Athena -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Athena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Construction"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Strider"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Worker"/>
     </owl:NamedIndividual>
     
 
@@ -416,6 +485,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Bandit -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Bandit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Raider"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Shieldbot"/>
     </owl:NamedIndividual>
     
@@ -433,6 +503,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Blastwing">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Gunship"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Suicide"/>
     </owl:NamedIndividual>
     
 
@@ -440,6 +511,9 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Blitz -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Blitz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Assault"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Disruptor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Raider"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Tank"/>
     </owl:NamedIndividual>
     
@@ -448,7 +522,9 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Bolas -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Bolas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Disruptor"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Hovercraft"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Raider"/>
     </owl:NamedIndividual>
     
 
@@ -457,6 +533,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Bulkhead">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Amphbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Fire_Support"/>
     </owl:NamedIndividual>
     
 
@@ -465,6 +542,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Buoy">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Amphbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Skirmish"/>
     </owl:NamedIndividual>
     
 
@@ -497,6 +575,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Claymore -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Claymore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Sub"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Hovercraft"/>
     </owl:NamedIndividual>
     
@@ -514,7 +593,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Conch">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Amphbot"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Worker"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Construction"/>
     </owl:NamedIndividual>
     
 
@@ -523,7 +602,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Conjurer">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Cloakbot"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Worker"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Construction"/>
     </owl:NamedIndividual>
     
 
@@ -531,8 +610,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Constable -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Constable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Construction"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Jumpbot"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Worker"/>
     </owl:NamedIndividual>
     
 
@@ -540,8 +619,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Convict -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Convict">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Construction"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Shieldbot"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Worker"/>
     </owl:NamedIndividual>
     
 
@@ -557,6 +636,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Corsair -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Corsair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Raider"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Riot"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Ship"/>
     </owl:NamedIndividual>
     
@@ -565,6 +646,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Crab -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Crab">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Riot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Skirmish"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Spider"/>
     </owl:NamedIndividual>
     
@@ -574,7 +657,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Crane">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Aircraft"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Worker"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Construction"/>
     </owl:NamedIndividual>
     
 
@@ -591,6 +674,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Cutter -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Cutter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Disruptor"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Ship"/>
     </owl:NamedIndividual>
     
@@ -599,6 +683,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Cyclops -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Cyclops">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Heavy"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Assault"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Tank"/>
     </owl:NamedIndividual>
     
@@ -608,6 +694,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Dagger">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Hovercraft"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Riot"/>
     </owl:NamedIndividual>
     
 
@@ -615,6 +702,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Dante -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Dante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Assault"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Riot"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Strider"/>
     </owl:NamedIndividual>
     
@@ -623,6 +712,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Dart -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Dart">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Disruptor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Raider"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Rover"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Scout"/>
     </owl:NamedIndividual>
@@ -640,6 +731,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Detriment -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Detriment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Assault"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Strider"/>
     </owl:NamedIndividual>
     
@@ -649,6 +741,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Dirtbag">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Shieldbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Suicide"/>
     </owl:NamedIndividual>
     
 
@@ -681,6 +774,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Duck">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Amphbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Sub"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Raider"/>
     </owl:NamedIndividual>
     
 
@@ -688,6 +783,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Emissary -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Emissary">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Artillery"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Tank"/>
     </owl:NamedIndividual>
     
@@ -696,6 +792,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Envoy -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Envoy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Artillery"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Ship"/>
     </owl:NamedIndividual>
     
@@ -704,6 +801,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Ettin -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Ettin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Air"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Tank"/>
     </owl:NamedIndividual>
     
@@ -736,6 +834,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Firewalker -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Firewalker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Artillery"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Jumpbot"/>
     </owl:NamedIndividual>
     
@@ -744,6 +843,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Flail -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Flail">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Air"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Hovercraft"/>
     </owl:NamedIndividual>
     
@@ -752,6 +852,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Flea -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Flea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Scout"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Spider"/>
     </owl:NamedIndividual>
     
@@ -785,6 +886,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Gnat -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Gnat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Heavy"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Disruptor"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Gunship"/>
     </owl:NamedIndividual>
     
@@ -803,6 +906,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Grizzly">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Amphbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Assault"/>
     </owl:NamedIndividual>
     
 
@@ -835,6 +939,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Harpy">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Gunship"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Multi-Role"/>
     </owl:NamedIndividual>
     
 
@@ -851,6 +956,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Hermit -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Hermit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Assault"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Spider"/>
     </owl:NamedIndividual>
     
@@ -867,6 +973,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Hunter -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Hunter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Sub"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Raider"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Ship"/>
     </owl:NamedIndividual>
     
@@ -876,6 +984,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Imp">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Cloakbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Suicide"/>
     </owl:NamedIndividual>
     
 
@@ -901,6 +1010,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Jack -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Jack">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Assault"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Jumpbot"/>
     </owl:NamedIndividual>
     
@@ -910,6 +1020,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Jugglenaut">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Jumpbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Riot"/>
     </owl:NamedIndividual>
     
 
@@ -925,7 +1036,9 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Knight -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Knight">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Assault"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Cloakbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Disruptor"/>
     </owl:NamedIndividual>
     
 
@@ -933,6 +1046,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Kodachi -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Kodachi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Raider"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Tank"/>
     </owl:NamedIndividual>
     
@@ -949,6 +1063,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Lance -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Lance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Heavy"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Artillery"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Hovercraft"/>
     </owl:NamedIndividual>
     
@@ -958,6 +1074,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Likho">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Aircraft"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Bomber"/>
     </owl:NamedIndividual>
     
 
@@ -966,6 +1083,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Limpet">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Amphbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Suicide"/>
     </owl:NamedIndividual>
     
 
@@ -982,6 +1100,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Locust">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Gunship"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Raider"/>
     </owl:NamedIndividual>
     
 
@@ -1006,6 +1125,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Mace">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Hovercraft"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Riot"/>
     </owl:NamedIndividual>
     
 
@@ -1013,8 +1133,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Mariner -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Mariner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Construction"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Ship"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Worker"/>
     </owl:NamedIndividual>
     
 
@@ -1022,8 +1142,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Mason -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Mason">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Construction"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Rover"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Worker"/>
     </owl:NamedIndividual>
     
 
@@ -1047,6 +1167,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Minotaur -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Minotaur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Assault"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Tank"/>
     </owl:NamedIndividual>
     
@@ -1065,6 +1186,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Mistral">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Ship"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Skirmish"/>
     </owl:NamedIndividual>
     
 
@@ -1072,7 +1194,9 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Moderator -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Moderator">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Disruptor"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Jumpbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Skirmish"/>
     </owl:NamedIndividual>
     
 
@@ -1088,6 +1212,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Nimbus -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Nimbus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Fire_Support"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Gunship"/>
     </owl:NamedIndividual>
     
@@ -1096,6 +1221,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Ogre -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Ogre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Riot"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Tank"/>
     </owl:NamedIndividual>
     
@@ -1104,6 +1230,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Outlaw -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Outlaw">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Riot"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Shieldbot"/>
     </owl:NamedIndividual>
     
@@ -1113,6 +1240,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Owl">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Aircraft"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Scout"/>
     </owl:NamedIndividual>
     
 
@@ -1120,6 +1248,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Paladin -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Paladin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Assault"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Strider"/>
     </owl:NamedIndividual>
     
@@ -1128,7 +1257,9 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Phantom -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Phantom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Heavy"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Cloakbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Skirmish"/>
     </owl:NamedIndividual>
     
 
@@ -1137,6 +1268,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Pheonix">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Aircraft"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Bomber"/>
     </owl:NamedIndividual>
     
 
@@ -1161,6 +1293,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Puppy">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Jumpbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Suicide"/>
     </owl:NamedIndividual>
     
 
@@ -1169,6 +1302,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Pyro">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Jumpbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Raider"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Riot"/>
     </owl:NamedIndividual>
     
 
@@ -1176,8 +1311,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Quill -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Quill">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Construction"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Hovercraft"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Worker"/>
     </owl:NamedIndividual>
     
 
@@ -1185,6 +1320,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Racketeer -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Racketeer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Artillery"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Disruptor"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Shieldbot"/>
     </owl:NamedIndividual>
     
@@ -1201,6 +1338,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Raptor -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Raptor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Air-Superiority"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Aircraft"/>
     </owl:NamedIndividual>
     
@@ -1219,6 +1357,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Raven">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Aircraft"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Bomber"/>
     </owl:NamedIndividual>
     
 
@@ -1235,6 +1374,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Reaver">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Cloakbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Riot"/>
     </owl:NamedIndividual>
     
 
@@ -1242,6 +1382,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Recluse -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Recluse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Skirmish"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Spider"/>
     </owl:NamedIndividual>
     
@@ -1250,6 +1391,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Redback -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Redback">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Riot"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Spider"/>
     </owl:NamedIndividual>
     
@@ -1258,6 +1400,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Reef -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Reef">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Fire_Support"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Strider"/>
     </owl:NamedIndividual>
     
@@ -1266,7 +1409,9 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Revenant -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Revenant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Assault"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Gunship"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Raider"/>
     </owl:NamedIndividual>
     
 
@@ -1310,6 +1455,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Scallop">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Amphbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Sub"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Riot"/>
     </owl:NamedIndividual>
     
 
@@ -1317,7 +1464,9 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Scalpel -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Scalpel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Heavy"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Hovercraft"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Skirmish"/>
     </owl:NamedIndividual>
     
 
@@ -1334,6 +1483,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Scorpion -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Scorpion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Disruptor"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Strider"/>
     </owl:NamedIndividual>
     
@@ -1342,6 +1492,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Scylla -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Scylla">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Artillery"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Strider"/>
     </owl:NamedIndividual>
     
@@ -1351,6 +1502,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Scythe">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Cloakbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Raider"/>
     </owl:NamedIndividual>
     
 
@@ -1358,6 +1510,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Seawolf -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Seawolf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Sub"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Ship"/>
     </owl:NamedIndividual>
     
@@ -1382,6 +1535,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Shogun -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Shogun">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Artillery"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Strider"/>
     </owl:NamedIndividual>
     
@@ -1400,7 +1554,9 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Skuttle -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Skuttle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Heavy"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Jumpbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Suicide"/>
     </owl:NamedIndividual>
     
 
@@ -1408,6 +1564,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Sling -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Sling">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Artillery"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Cloakbot"/>
     </owl:NamedIndividual>
     
@@ -1417,6 +1574,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Snitch">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Shieldbot"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Suicide"/>
     </owl:NamedIndividual>
     
 
@@ -1433,6 +1591,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Sparrow">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Aircraft"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Scout"/>
     </owl:NamedIndividual>
     
 
@@ -1481,6 +1640,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Swift">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Aircraft"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Multi-Role"/>
     </owl:NamedIndividual>
     
 
@@ -1496,6 +1656,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Tarantula -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Tarantula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Air"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Spider"/>
     </owl:NamedIndividual>
     
@@ -1512,6 +1673,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Thug -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Thug">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Assault"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Shieldbot"/>
     </owl:NamedIndividual>
     
@@ -1521,6 +1683,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Thunderbird">
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Aircraft"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Bomber"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Disruptor"/>
     </owl:NamedIndividual>
     
 
@@ -1528,6 +1692,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Toad -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Toad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Air"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Jumpbot"/>
     </owl:NamedIndividual>
     
@@ -1536,6 +1701,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Tremor -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Tremor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Artillery"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Tank"/>
     </owl:NamedIndividual>
     
@@ -1544,6 +1710,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Trident -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Trident">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Air"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Gunship"/>
     </owl:NamedIndividual>
     
@@ -1560,6 +1727,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Ultimatum -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Ultimatum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Heavy"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Strider"/>
     </owl:NamedIndividual>
     
@@ -1585,6 +1753,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Venom -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Venom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Disruptor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Riot"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Spider"/>
     </owl:NamedIndividual>
     
@@ -1593,8 +1763,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Wasp -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Wasp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Construction"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Gunship"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Worker"/>
     </owl:NamedIndividual>
     
 
@@ -1602,8 +1772,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Weaver -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Weaver">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Construction"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Spider"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Worker"/>
     </owl:NamedIndividual>
     
 
@@ -1611,8 +1781,8 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Welder -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Welder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Construction"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Tank"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Worker"/>
     </owl:NamedIndividual>
     
 
@@ -1620,6 +1790,9 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Widow -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Widow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Heavy"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Disruptor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Scout"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Spider"/>
     </owl:NamedIndividual>
     
@@ -1644,6 +1817,7 @@
     <!-- http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Zephyr -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Zephyr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Anti-Air"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/mike/ontologies/2023/6/ZeroK#Ship"/>
     </owl:NamedIndividual>
 </rdf:RDF>
